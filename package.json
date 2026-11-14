@@ -1,0 +1,13 @@
+{
+  "name": "x509-path-policy-validator",
+  "version": "0.1.0",
+  "description": "Offline X.509 certificate path building and validation library",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "generate-fixtures": "bash scripts/generate-fixtures.sh"
+  },
+  "license": "MIT"
+}
